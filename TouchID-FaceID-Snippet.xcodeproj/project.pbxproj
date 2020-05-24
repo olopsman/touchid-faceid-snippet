@@ -13,6 +13,7 @@
 		DCF65057247A1A9200653E73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCF65055247A1A9200653E73 /* Main.storyboard */; };
 		DCF65059247A1A9300653E73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCF65058247A1A9300653E73 /* Assets.xcassets */; };
 		DCF6505C247A1A9300653E73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCF6505A247A1A9300653E73 /* LaunchScreen.storyboard */; };
+		DCF65064247A1CE900653E73 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DCF65063247A1CE900653E73 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DCF65058247A1A9300653E73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCF6505B247A1A9300653E73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCF6505D247A1A9300653E73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCF65063247A1CE900653E73 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 			children = (
 				DCF6504E247A1A9200653E73 /* TouchID-FaceID-Snippet */,
 				DCF6504D247A1A9200653E73 /* Products */,
+				DCF65063247A1CE900653E73 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +130,7 @@
 			files = (
 				DCF6505C247A1A9300653E73 /* LaunchScreen.storyboard in Resources */,
 				DCF65059247A1A9300653E73 /* Assets.xcassets in Resources */,
+				DCF65064247A1CE900653E73 /* README.md in Resources */,
 				DCF65057247A1A9200653E73 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +291,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UAF5HBHXWW;
 				INFOPLIST_FILE = "TouchID-FaceID-Snippet/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +310,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UAF5HBHXWW;
 				INFOPLIST_FILE = "TouchID-FaceID-Snippet/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
